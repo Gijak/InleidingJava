@@ -6,7 +6,7 @@ import java.applet.*;
 
 public class Praktijkopdracht extends Applet {public void init () {}
 
-    public void pant (Graphics g) {
+    public void paint (Graphics g){
         g.drawLine(20, 10, 50, 10);
         g.drawString("Lijn", 25, 25);
         g.drawRect(20, 30, 100, 50);
