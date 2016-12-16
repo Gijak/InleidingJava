@@ -37,7 +37,7 @@ public class toets extends Applet{
     public void init(){
         setSize(600,500);
         imagePad = toets.class.getResource("resources/");
-        //geluid
+        //geluid ophalen
         sound = getAudioClip(imagePad, "Casino.wav");
         //afbeelding ophalen
         for (int i= 0; i < fotos.length; i++) {
@@ -103,6 +103,7 @@ public class toets extends Applet{
 
         }
     }
+
     class KredietListener implements ActionListener {
         public void actionPerformed(ActionEvent e) {
             krediet = 10;
